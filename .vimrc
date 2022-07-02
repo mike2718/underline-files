@@ -13,10 +13,12 @@ set showcmd
 set wildmenu
 set hidden
 set backspace=indent,eol,start
+set fileformats=dos,unix
 set ruler
 set showmatch
 set noswapfile
 set encoding=utf-8
+set fileencodings=ucs-2le,utf-8,cp936
 set shiftwidth=4
 set tabstop=4
 set autoread
@@ -29,11 +31,9 @@ set ambiwidth=double
 set showcmd
 
 set belloff=all
-
-set tw=80
-set fo-=t
+set textwidth=80
+set formatoptions-=t
 augroup vimrc_autocmds
   autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
   autocmd BufEnter * match OverLength /\%80v.*/
 augroup END
-
