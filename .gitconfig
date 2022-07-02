@@ -22,3 +22,5 @@
 	provider = generic
 [core]
 	autocrlf = true
+[init]
+	defaultBranch = main
