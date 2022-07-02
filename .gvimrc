@@ -13,7 +13,7 @@ set showcmd
 set wildmenu
 set hidden
 set backspace=indent,eol,start
-set fileformats=unix,dos,mac
+set fileformats=dos,unix
 set ruler
 set showmatch
 set noswapfile
@@ -28,8 +28,11 @@ set virtualedit=block
 set ambiwidth=double
 set showcmd
 
+set textwidth=80
+set belloff=all
+
 set encoding=utf-8
-set fileencodings=utf-8,cp936,gb18030,latin1
+set fileencodings=ucs-2le,utf-8,cp936
 set langmenu=en_US
 let $LANG = 'en_US'
 source $VIMRUNTIME/delmenu.vim
