@@ -1,0 +1,24 @@
+[user]
+	email = mike2718@gmail.com
+	name = Mike Akiba
+	signingkey = 40FEA41DCC55C0D8D1AF814C17C22010D29A50BC
+[commit]
+	gpgsign = true
+[tar "tar.xz"]
+	command = xz -c
+[tar "tar.zst"]
+	command = zstd -c
+[http "https://github.com"]
+	sslVerify = false
+[http]
+	proxy = http://127.0.0.1:7890
+[safe]
+	directory = E:/dev/src
+	directory = E:/dev/ham
+	directory = E:/dev/vrchat-guide-cn
+	directory = E:/dev/save
+	directory = E:/dev/eac-profile
+[credential "https://gitlab.com"]
+	provider = generic
+[core]
+	autocrlf = true
