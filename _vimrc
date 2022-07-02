@@ -32,3 +32,5 @@ set showcmd
 
 set belloff=all
 set textwidth=80
+set timeoutlen=1000 ttimeoutlen=0
+
