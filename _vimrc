@@ -18,7 +18,7 @@ set ruler
 set showmatch
 set noswapfile
 set encoding=utf-8
-set fileencodings=ucs-2le,utf-8,cp936
+set fileencodings=ucs-bom,utf-8,cp936
 set shiftwidth=4
 set tabstop=4
 set autoread

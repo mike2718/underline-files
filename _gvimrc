@@ -5,7 +5,7 @@ set smartcase
 set laststatus=2
 set nocompatible
 set encoding=utf-8
-set fileencodings=ucs-2le,utf-8,cp936
+set fileencodings=ucs-bom,utf-8,cp936
 
 set langmenu=en_US
 let $LANG = 'en_US'
