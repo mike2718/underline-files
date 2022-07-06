@@ -114,9 +114,8 @@ alias egrep='egrep --color=auto'
 alias diff='diff -rauN --color=auto'
 # 使用单词级别比较的diff
 #alias diff='git diff --no-index --color-words'
-alias ip='ip --color=auto'
 alias curl='curl --remove-on-error'
 
-umask 002
+umask 0002
 
 # vim: set et sw=4 sts=4 tw=80 ft=sh:
