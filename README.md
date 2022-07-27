@@ -7,3 +7,5 @@
 - git
 - SciTE
 - vim/gvim
+
+等
