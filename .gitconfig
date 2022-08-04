@@ -18,6 +18,7 @@
 	directory = E:/dev/vrchat-guide-cn
 	directory = E:/dev/save
 	directory = E:/dev/eac-profile
+	directory = E:/dev4/WinVi32
 [credential "https://gitlab.com"]
 	provider = generic
 [core]
