@@ -1,7 +1,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1="\[\033[01;33m\]\u@\H: \w [\D{%R %A,%e %B %Y (%z)}]\n(\$?) \\$\[\033[0m\] \[$(tput sgr0)\]"
+PS1="\[\033[01;33m\]\u@\H: \w [\D{%R %A,%e %B %Y}]\n(\$?) \\$\[\033[0m\] \[$(tput sgr0)\]"
 export PS1
 
 # tab自动完成文件名和命令
@@ -15,7 +15,7 @@ export HISTTIMEFORMAT='%F %T '
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
 export HISTFILESIZE=20000
-export HISTIGNORE='history:pwd:ls:ls *:ll:w:top:df *'      # 保存しないコマンド
+#export HISTIGNORE='history:pwd:ls:ls *:ll:w:top:df *'      # 保存しないコマンド
 export PROMPT_COMMAND='history -a; history -c; history -r' # 履歴のリアルタイム反映
 
 # Disable Ctrl+z in terminal
