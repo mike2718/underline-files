@@ -19,6 +19,9 @@
 	directory = E:/dev/save
 	directory = E:/dev/eac-profile
 	directory = E:/dev4/WinVi32
+	directory = E:/build/winvisrc
+	directory = E:/build/winvi32
+	directory = E:/build/winvi
 [credential "https://gitlab.com"]
 	provider = generic
 [core]
