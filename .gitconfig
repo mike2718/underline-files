@@ -22,6 +22,7 @@
 	directory = E:/build/winvisrc
 	directory = E:/build/winvi32
 	directory = E:/build/winvi
+	directory = E:/soft/perfect_dark/mutagen
 [credential "https://gitlab.com"]
 	provider = generic
 [core]
