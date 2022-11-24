@@ -10,11 +10,9 @@ _curlrc text eol=crlf
 _vimrc text eol=crlf
 _gvimrc text eol=crlf
 rar.ini text eol=crlf
+yasslEWS.conf text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
-.gitconfig text eol=lf
-.gitattributes text eol=lf
-.gitconfig text eol=lf
 
 
 # Denote all files that are truly binary and should not be modified.
