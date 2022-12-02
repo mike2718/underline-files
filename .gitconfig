@@ -1,7 +1,7 @@
 [user]
 	email = mike2718@gmail.com
 	name = Mike Akiba
-	signingkey = 40FEA41DCC55C0D8D1AF814C17C22010D29A50BC
+	signingkey = 17C22010D29A50BC
 [commit]
 	gpgsign = true
 [tar "tar.xz"]
