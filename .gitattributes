@@ -5,7 +5,7 @@
 # to native line endings on checkout.
 
 # Declare files that will always have CRLF line endings on checkout.
-SciTEUser.properties text eol=lf
+SciTEUser.properties text eol=crlf
 _curlrc text eol=crlf
 _vimrc text eol=crlf
 _gvimrc text eol=crlf
