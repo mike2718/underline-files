@@ -8,10 +8,6 @@
 	command = xz -c
 [tar "tar.zst"]
 	command = zstd -c
-[http "https://github.com"]
-	sslVerify = false
-[http]
-	proxy = http://127.0.0.1:7890
 [safe]
 	directory = E:/dev/src
 	directory = E:/dev/ham
@@ -29,3 +25,10 @@
 	autocrlf = true
 [init]
 	defaultBranch = main
+[http "https://github.com"]
+	proxy = http://127.0.0.1:7890
+	sslVerify = false
+[merge]
+	ff = false
+[pull]
+	ff = only
