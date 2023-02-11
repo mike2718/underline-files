@@ -23,6 +23,7 @@
 	provider = generic
 [core]
 	autocrlf = true
+	editor = \"C:\\Program Files (x86)\\Vim\\vim90\\gvim.exe\"
 [init]
 	defaultBranch = main
 [http "https://github.com"]
