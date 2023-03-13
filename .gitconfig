@@ -9,21 +9,13 @@
 [tar "tar.zst"]
 	command = zstd -c
 [safe]
-	directory = E:/dev/src
-	directory = E:/dev/ham
-	directory = E:/dev/vrchat-guide-cn
-	directory = E:/dev/save
-	directory = E:/dev/eac-profile
-	directory = E:/dev4/WinVi32
-	directory = E:/build/winvisrc
-	directory = E:/build/winvi32
-	directory = E:/build/winvi
-	directory = E:/soft/perfect_dark/mutagen
+	directory = C:/Users/Saori/dev/ham
+	directory = C:/Users/Saori/dev/save
 [credential "https://gitlab.com"]
 	provider = generic
 [core]
 	autocrlf = true
-	editor = \"C:\\Program Files (x86)\\Vim\\vim90\\gvim.exe\"
+	editor = \"C:\\cmdtool64\\Sc1.exe\"
 [init]
 	defaultBranch = main
 [http "https://github.com"]
