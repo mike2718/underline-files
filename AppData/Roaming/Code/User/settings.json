@@ -6,12 +6,8 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "editor.fontSize": 16,
-    "window.zoomLevel": -1
-}
 
-
-
-// 日本語文書で単語移動を使うため、助詞や読点、括弧を区切り文字として指定する
+    // 日本語文書で単語移動を使うため、助詞や読点、括弧を区切り文字として指定する
 "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?　、。「」【】『』（）！？てにをはがのともへでや",
 
 // 設定: LaTeX Workshop
@@ -157,3 +153,5 @@
 
 // 生成ファイルを "out" ディレクトリに吐き出す
 "latex-workshop.latex.outDir": "out",
+
+}
