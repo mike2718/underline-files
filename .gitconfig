@@ -15,7 +15,7 @@
 	provider = generic
 [core]
 	autocrlf = true
-	editor = \"C:\\cmdtool64\\Sc1.exe\"
+    editor = \"C:\\Users\\Saori\\soft\\vim\\vim90\\gvim.exe\"
 [init]
 	defaultBranch = main
 [http "https://github.com"]
