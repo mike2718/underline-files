@@ -38,13 +38,12 @@ set showcmd
 
 set textwidth=80
 set belloff=all
-set timeoutlen=1000 ttimeoutlen=0
 
 if has("gui_running")
   if has("gui_gtk2")
     set guifont=Bitstream\ Vera\ Sans\ Mono\ 12,Fixed\ 12
     set guifontwide=Microsoft\ Yahei\ 12,WenQuanYi\ Zen\ Hei\ 12
   elseif has("gui_win32")
-    set guifont=SF\ Mono:h14:cANSI
+    set guifont=SF\ Mono:h13:cANSI
   endif
 endif
