@@ -11,6 +11,7 @@
 [safe]
 	directory = C:/Users/Saori/dev/ham
 	directory = C:/Users/Saori/dev/save
+	directory = C:/Users/Saori
 [credential "https://gitlab.com"]
 	provider = generic
 [core]
@@ -18,9 +19,6 @@
     editor = \"C:\\Users\\Saori\\soft\\vim\\vim90\\gvim.exe\"
 [init]
 	defaultBranch = main
-[http "https://github.com"]
-	proxy = http://127.0.0.1:7890
-	sslVerify = false
 [merge]
 	ff = false
 [pull]
