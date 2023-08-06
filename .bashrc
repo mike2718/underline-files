@@ -120,6 +120,6 @@ alias diff='diff -rauN --color=auto'
 #alias diff='git diff --no-index --color-words'
 alias curl='curl --remove-on-error'
 
-umask 0002
+umask 022
 
 # vim: set et sw=4 sts=4 tw=80 ft=sh:

@@ -23,3 +23,7 @@
 	ff = false
 [pull]
 	ff = only
+[http "https://github.com"]
+	proxy = http://@127.0.0.1:7890
+[credential "http://127.0.0.1:7890"]
+	provider = generic
