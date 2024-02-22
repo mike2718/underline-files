@@ -1,6 +1,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export PATH="/c/Users/Saori/build/git/bin-wrappers:$PATH"
+
 PS1="\[\033[01;33m\]\u@\H: \w [\D{%R %A,%e %B %Y}]\n(\$?) \\$\[\033[0m\] \[$(tput sgr0)\]"
 export PS1
 
