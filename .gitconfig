@@ -9,8 +9,6 @@
 [tar "tar.zst"]
 	command = zstd -c
 [safe]
-	directory = C:/Users/Saori/dev/ham
-	directory = C:/Users/Saori/dev/save
 	directory = C:/Users/Saori
 [credential "https://gitlab.com"]
 	provider = generic
@@ -23,3 +21,6 @@
 	ff = false
 [pull]
 	ff = only
+[http]
+	postBuffer = 524288000
+	sslVerify = false
