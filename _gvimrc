@@ -41,9 +41,9 @@ set belloff=all
 
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=Bitstream\ Vera\ Sans\ Mono\ 12,Fixed\ 12
+    set guifont=DejaVu\ Sans\ Mono\ 12,Fixed\ 12
     set guifontwide=Microsoft\ Yahei\ 12,WenQuanYi\ Zen\ Hei\ 12
   elseif has("gui_win32")
-    set guifont=SF\ Mono:h13:cANSI
+    set guifont=Ubuntu\ Sans\ Mono:h12:cANSI
   endif
 endif
