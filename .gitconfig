@@ -14,7 +14,7 @@
 	provider = generic
 [core]
 	autocrlf = true
-    editor = \"C:\\Users\\Saori\\soft\\vim\\vim90\\gvim.exe\"
+	editor = C:/cmdtool64/Sc1.exe
 [init]
 	defaultBranch = main
 [merge]
