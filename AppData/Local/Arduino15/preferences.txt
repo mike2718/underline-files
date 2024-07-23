@@ -1,2 +1,0 @@
-editor.font=DejaVu Sans Mono
-editor.font.size=14
