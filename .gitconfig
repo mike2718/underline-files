@@ -10,8 +10,6 @@
 	command = zstd -c
 [safe]
 	directory = C:/Users/Saori
-[credential "https://gitlab.com"]
-	provider = generic
 [core]
 	autocrlf = true
 	editor = C:/cmdtool64/Sc1.exe
@@ -21,6 +19,5 @@
 	ff = false
 [pull]
 	ff = only
-[http]
-	postBuffer = 524288000
-	sslVerify = false
+[push]
+	autoSetupRemote = true
