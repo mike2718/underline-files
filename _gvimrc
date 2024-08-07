@@ -44,6 +44,6 @@ if has("gui_running")
     set guifont=DejaVu\ Sans\ Mono\ 12,Fixed\ 12
     set guifontwide=Microsoft\ Yahei\ 12,WenQuanYi\ Zen\ Hei\ 12
   elseif has("gui_win32")
-    set guifont=DejaVu\ Sans\ Mono:h12:cANSI
+    set guifont=SF\ Mono:h12:cANSI
   endif
 endif
