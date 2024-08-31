@@ -13,6 +13,7 @@
 [core]
 	autocrlf = true
 	editor = C:/cmdtool64/Sc1.exe
+	compression = 0
 [init]
 	defaultBranch = main
 [merge]
@@ -21,3 +22,6 @@
 	ff = only
 [push]
 	autoSetupRemote = true
+[http]
+	postBuffer = 524288000
+	maxRequests = 5
