@@ -1,9 +1,9 @@
+set nocompatible
 set number
 set expandtab
 set ignorecase
 set smartcase
 set laststatus=2
-set nocompatible
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936
 
@@ -34,10 +34,14 @@ set nowritebackup
 set nobackup
 set virtualedit=block
 set ambiwidth=double
-set showcmd
 
 set textwidth=80
 set belloff=all
+
+set noswapfile
+set nobackup
+set nowritebackup
+set noundofile
 
 if has("gui_running")
   if has("gui_gtk2")
