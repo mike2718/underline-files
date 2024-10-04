@@ -1,3 +1,4 @@
+set nocompatible
 filetype plugin on
 set confirm
 
@@ -6,7 +7,6 @@ set expandtab
 set ignorecase
 set smartcase
 set laststatus=2
-set nocompatible
 syntax on
 set autoindent
 set showcmd
@@ -33,3 +33,7 @@ set showcmd
 set belloff=all
 set textwidth=80
 
+set noswapfile
+set nobackup
+set nowritebackup
+set noundofile
