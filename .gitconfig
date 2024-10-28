@@ -4,16 +4,12 @@
 	signingkey = 17C22010D29A50BC
 [commit]
 	gpgsign = true
-[tar "tar.xz"]
-	command = xz -c
-[tar "tar.zst"]
-	command = zstd -c
 [safe]
 	directory = C:/Users/Saori
 [core]
 	autocrlf = true
 	editor = C:/cmdtool64/Sc1.exe
-	compression = 0
+	compression = 6
 [init]
 	defaultBranch = main
 [merge]
