@@ -8,7 +8,7 @@
 	directory = C:/Users/Saori
 [core]
 	autocrlf = true
-	editor = C:/cmdtool64/Sc1.exe
+	editor = C:/Users/Saori/soft/npp/notepad++.exe
 	compression = 9
 [init]
 	defaultBranch = main
@@ -20,5 +20,5 @@
 	autoSetupRemote = true
 [http]
 	postBuffer = 524288000
-	maxRequests = 3
+	maxRequests = 2
 	retry = 3
