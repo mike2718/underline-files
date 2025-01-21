@@ -3,8 +3,9 @@
 
 export PATH="/c/Users/Saori/build/git/bin-wrappers:$PATH"
 
-PS1="\[\033[01;33m\]\u@\H: \w [\D{%R %A,%e %B %Y}]\n(\$?) \\$\[\033[0m\] \[$(tput sgr0)\]"
-export PS1
+#PS1="\[\033[01;33m\]\u@\H: \w [\D{%R %A,%e %B %Y}]\n(\$?) \\$\[\033[0m\] \[$(tput sgr0)\]"
+#export PS1
+export PS1='\[\e[38;5;66m\]\u\[\e[0m\]@\[\e[38;5;96m\]\h \[\e[38;5;65m\]\w \[\e[0m\](\[\e[38;5;178m\]$?\[\e[0m\]) \$ '
 
 # tab自动完成文件名和命令
 complete -cf sudo
