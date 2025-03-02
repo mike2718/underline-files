@@ -2,14 +2,21 @@
 	email = mike2718@gmail.com
 	name = Mike Akiba
 	signingkey = 17C22010D29A50BC
+[tar "tar.xz"]
+	command = xz -c
+[tar "tar.zst"]
+	command = zstd -c
 [commit]
 	gpgsign = true
 [safe]
 	directory = C:/Users/Saori
 [core]
-	autocrlf = true
+	autocrlf = false
 	editor = C:/Users/Saori/soft/npp/notepad++.exe
-	compression = 9
+	compression = 0
+	ignorecase = false
+	quotepath = false
+	safecrlf = true
 [init]
 	defaultBranch = main
 [merge]
@@ -18,7 +25,12 @@
 	ff = only
 [push]
 	autoSetupRemote = true
+	default = simple
 [http]
 	postBuffer = 524288000
 	maxRequests = 2
 	retry = 3
+	lowSpeedLimit = 0
+	lowSpeedTime = 999999
+[credential]
+	helper = wincred
