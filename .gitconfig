@@ -17,6 +17,7 @@
 	ignorecase = false
 	quotepath = false
 	safecrlf = true
+	editor = C:\\cmdtool64\\Sc1.exe
 [init]
 	defaultBranch = main
 [merge]
