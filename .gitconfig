@@ -1,6 +1,6 @@
 [user]
 	email = mike2718@gmail.com
-	name = Mike Akiba
+	name = Mike
 	signingkey = 17C22010D29A50BC
 [tar "tar.xz"]
 	command = xz -c
