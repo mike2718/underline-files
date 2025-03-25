@@ -1,6 +1,6 @@
 {
     "alt-speed-down": 300,
-    "alt-speed-enabled": true,
+    "alt-speed-enabled": false,
     "alt-speed-time-begin": 1140,
     "alt-speed-time-day": 127,
     "alt-speed-time-enabled": true,
@@ -28,8 +28,8 @@
     "main-window-height": 558,
     "main-window-layout-order": "menu,toolbar,filter,list,statusbar",
     "main-window-width": 689,
-    "main-window-x": 386,
-    "main-window-y": 78,
+    "main-window-x": 320,
+    "main-window-y": 96,
     "message-level": 1,
     "open-dialog-dir": "C:/Users/Saori",
     "peer-limit-global": 10000,
