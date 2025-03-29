@@ -85,7 +85,7 @@ alias gs='git status'
 # gpg
 alias gpglk='gpg --list-keys --keyid-format=long'
 alias gpglsk='gpg --list-secret-keys --keyid-format=long'
-alias gpge='gpg --encrypt --recipient 14F27367B1323515B1F61A815BDC731777049B5F'
+alias gpge='gpg --encrypt --recipient 82B1FC19E5C28E3D47A637DC1C12D567826B66F1'
 alias gpgd='gpg --decrypt'
 # gnupg tty
 GPG_TTY=$(tty)
