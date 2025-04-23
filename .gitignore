@@ -1,39 +1,140 @@
-# 忽略 Windows 系统目录
+# 忽略所有隐藏文件夹（如 .ssh/ .gnupg/ .vscode/ 等）
+.*
+!.gitignore
+!.gitconfig
+!.gitattributes
+
+# 忽略 AppData 和其下所有内容
 AppData/
-Application Data/
-Cookies/
-Local Settings/
-My Documents/
-NetHood/
-PrintHood/
-Recent/
-SendTo/
-Templates/
-「开始」菜单/
+
+# 忽略典型的 shell 历史文件
+.bash_history
+.viminfo
+.lesshst
+
+# 忽略 VSCode 设置
+.vscode/
+
+# 忽略 GNUPG 等密钥缓存
+.gnupg/
+
+# 忽略 SSH 设置
+.ssh/
+
+# 忽略平台相关文件夹
+.platformio/
+.minttyrc
+.dbus-keyrings/
+
+# 忽略常见工具缓存
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+node_modules/
+bower_components/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# 忽略 macOS 或 Windows 特有文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
 *.lnk
 
-# 忽略隐藏配置和缓存目录
-.cache/
-.config/
-.local/
-.vscode/
-.ssh/
-.gnupg/
-.android/
-.dbus-keyrings/
-.platformio/
-.lesshst
-.viminfo
-.minttyrc
-.bash_history
+# 忽略传输工具的缓存（如 transmission）
+AppData/Local/transmission/
 
-# 忽略软件缓存
-AppData/Local/Temp/
-AppData/Local/CrashDumps/
+# 忽略大部分 Roaming 应用配置
+AppData/Roaming/
+
+# 忽略 Local 其他缓存类目录
+AppData/Local/*/
+!AppData/Local/transmission/settings.json
+
+# 保留 Git 配置文件和 .gitignore.bak 等
+!.gitignore.bak
+!.gitattributes.bak
+
+# 忽略 VirtualStore（兼容旧程序）
+AppData/Local/VirtualStore/
+
+# 忽略临时文件和缓存目录
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old
+*.orig
+~*
+
+# 忽略日志文件
+*.log
+*.log.*
+
+# 其他软件缓存
 AppData/Local/Steam/
+AppData/Local/EpicGamesLauncher/
+AppData/Local/GenshinImpact/
+AppData/Local/Google/
+AppData/Local/Mozilla/
+AppData/Local/CrashDumps/
+AppData/Local/SquirrelTemp/
+AppData/Local/Temp/
+AppData/Local/Discord/
+AppData/Local/Adobe/
+
+# Unreal / Unity 等游戏开发缓存
+AppData/Local/UnrealEngine/
+AppData/Local/UnrealEngineLauncher/
+AppData/Local/Unity/
+
+# Windows 访问快捷方式和设置
+Cookies/
+Recent/
+PrintHood/
+SendTo/
+Templates/
+NetHood/
+My Documents/
+Application Data/
+Local Settings/
+「开始」菜单/
+
+# 忽略 VS / MSBuild 临时内容
+AppData/Local/Package Cache/
 AppData/Local/Programs/
-AppData/Roaming/Code/
-AppData/Roaming/Godot/
-AppData/Roaming/Greenshot/
-AppData/Roaming/CHIRP/
-AppData/Roaming/BaiduYun*
+AppData/Local/assembly/
+.vs/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.VC.db
+*.VC.VC.opendb
+
+# 忽略 Windows Defender 或系统文件夹
+AppData/Local/Diagnostics/
+AppData/Local/ElevatedDiagnostics/
+AppData/Local/History/
+AppData/Local/Temporary Internet Files/
+
+# 用户软件数据缓存（常见应用）
+AppData/Local/HoYoverse/
+AppData/Local/OnlyUP/
+AppData/Local/Syncthing/
+AppData/Local/Thunderbird/
+AppData/Local/TeamViewer/
+AppData/Local/qBittorrent/
+AppData/Local/eMule/
+AppData/Local/fnm_multishells/
+AppData/Local/npm-cache/
+AppData/Local/pip/
