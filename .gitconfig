@@ -18,6 +18,8 @@
 	quotepath = false
 	safecrlf = true
 	editor = C:\\cmdtool64\\Sc1.exe
+	excludesfile = C:/Users/Saori/.gitignore
+	attributesfile = C:/Users/Saori/.gitattributes
 [init]
 	defaultBranch = main
 [merge]
