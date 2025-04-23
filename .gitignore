@@ -60,10 +60,6 @@ AppData/Roaming/
 AppData/Local/*/
 !AppData/Local/transmission/settings.json
 
-# 保留 Git 配置文件和 .gitignore.bak 等
-!.gitignore.bak
-!.gitattributes.bak
-
 # 忽略 VirtualStore（兼容旧程序）
 AppData/Local/VirtualStore/
 
