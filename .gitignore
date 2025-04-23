@@ -1,5 +1,39 @@
-.ssh
+# 忽略 Windows 系统目录
+AppData/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Templates/
+「开始」菜单/
+*.lnk
+
+# 忽略隐藏配置和缓存目录
+.cache/
+.config/
+.local/
+.vscode/
+.ssh/
+.gnupg/
+.android/
+.dbus-keyrings/
+.platformio/
+.lesshst
+.viminfo
+.minttyrc
 .bash_history
- AppData
- .gnupg
- gallery-dl.conf
+
+# 忽略软件缓存
+AppData/Local/Temp/
+AppData/Local/CrashDumps/
+AppData/Local/Steam/
+AppData/Local/Programs/
+AppData/Roaming/Code/
+AppData/Roaming/Godot/
+AppData/Roaming/Greenshot/
+AppData/Roaming/CHIRP/
+AppData/Roaming/BaiduYun*
