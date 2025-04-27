@@ -1,3 +1,4 @@
+gallery-dl.conf
 # 忽略所有隐藏文件夹（如 .ssh/ .gnupg/ .vscode/ 等）
 .*
 !.gitignore
