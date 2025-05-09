@@ -214,7 +214,7 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <folder id="lvqpx-edbfr" label="backup" path="C:\Users\Saori\backup" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
+    <folder id="lvqpx-edbfr" label="backup" path="C:\Users\Saori\backup" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
             <encryptionPassword></encryptionPassword>
@@ -378,7 +378,7 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <folder id="tc3oq-pdiao" label="share" path="C:\Users\Saori\share" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
+    <folder id="tc3oq-pdiao" label="share" path="C:\Users\Saori\share" type="sendonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
             <encryptionPassword></encryptionPassword>
@@ -545,6 +545,7 @@
     </device>
     <gui enabled="true" tls="false" debugging="false" sendBasicAuthPrompt="false">
         <address>127.0.0.1:8384</address>
+        <metricsWithoutAuth>false</metricsWithoutAuth>
         <apikey>M67E6pVPrxXUYAwihF45MiEwF4SQaqus</apikey>
         <theme>light</theme>
     </gui>
@@ -594,9 +595,10 @@
         <maxConcurrentIncomingRequestKiB>0</maxConcurrentIncomingRequestKiB>
         <announceLANAddresses>true</announceLANAddresses>
         <sendFullIndexOnUpgrade>false</sendFullIndexOnUpgrade>
+        <auditEnabled>false</auditEnabled>
+        <auditFile></auditFile>
         <connectionLimitEnough>0</connectionLimitEnough>
         <connectionLimitMax>0</connectionLimitMax>
-        <insecureAllowOldTLSVersions>false</insecureAllowOldTLSVersions>
         <connectionPriorityTcpLan>10</connectionPriorityTcpLan>
         <connectionPriorityQuicLan>20</connectionPriorityQuicLan>
         <connectionPriorityTcpWan>30</connectionPriorityTcpWan>
