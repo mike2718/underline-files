@@ -325,6 +325,62 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
+    <folder id="rfdhe-tfhhz" label="Source Code" path="D:\Source-Code" type="sendonly" rescanIntervalS="36000" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
+        <filesystemType>basic</filesystemType>
+        <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="HDLJWBK-PAABIJ4-CXP56PQ-OXIYP4E-XGQG5MP-HPMDOYR-HLDOKWJ-K7NTTA5" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="U4EWV6M-ZNWK2CW-KIVZGOJ-RRH6WH7-JZ4HLAR-7PTEBVO-32CYZFH-OV3TDAS" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="U74MWYL-AXTVZLW-Z52XKFR-7AA56EB-G3IABLE-FGSL3TW-XFDICT6-NW3FEAR" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="Y6SL2NH-HF2C5MX-ZNGLNN7-2RF474E-DBI6V5A-ISVOXHV-YYPMFF3-BCPJWQ6" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="5OBXCIM-G6TET67-4BKQZ7W-UY2HLHP-U37Z2LB-M2E5EX4-WOVV2F3-PIXLEAH" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <minDiskFree unit="%">5</minDiskFree>
+        <versioning>
+            <cleanupIntervalS>3600</cleanupIntervalS>
+            <fsPath></fsPath>
+            <fsType>basic</fsType>
+        </versioning>
+        <copiers>0</copiers>
+        <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
+        <hashers>0</hashers>
+        <order>random</order>
+        <ignoreDelete>false</ignoreDelete>
+        <scanProgressIntervalS>0</scanProgressIntervalS>
+        <pullerPauseS>0</pullerPauseS>
+        <maxConflicts>10</maxConflicts>
+        <disableSparseFiles>false</disableSparseFiles>
+        <disableTempIndexes>false</disableTempIndexes>
+        <paused>false</paused>
+        <weakHashThresholdPct>25</weakHashThresholdPct>
+        <markerName>.stfolder</markerName>
+        <copyOwnershipFromParent>false</copyOwnershipFromParent>
+        <modTimeWindowS>0</modTimeWindowS>
+        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <disableFsync>false</disableFsync>
+        <blockPullOrder>standard</blockPullOrder>
+        <copyRangeMethod>standard</copyRangeMethod>
+        <caseSensitiveFS>false</caseSensitiveFS>
+        <junctionsAsDirs>false</junctionsAsDirs>
+        <syncOwnership>false</syncOwnership>
+        <sendOwnership>false</sendOwnership>
+        <syncXattrs>false</syncXattrs>
+        <sendXattrs>false</sendXattrs>
+        <xattrFilter>
+            <maxSingleEntrySize>1024</maxSingleEntrySize>
+            <maxTotalSize>4096</maxTotalSize>
+        </xattrFilter>
+    </folder>
     <folder id="rroad-thcrj" label="game-iso" path="D:\game-iso" type="sendreceive" rescanIntervalS="36000" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
