@@ -6,7 +6,7 @@ gallery-dl.conf
 !.gitattributes
 
 # 忽略 AppData 和其下所有内容
-AppData/
+#AppData/
 
 # 忽略典型的 shell 历史文件
 .bash_history
