@@ -6,12 +6,12 @@ numleft=$(echo "$list" | wc -l)
 for file in $list ; do
 	ending=$(echo "$file" | sed 's/\(.*\)\.\(.*\)$/\2/')
 	
-	#include this block if you want to have 8% recovery data
-	if [ ! -e "$file-8p.par2" ] && [ "$ending" != "par2" ] && [ "$ending" != "sig" ] && [ "$(stat --format=%s "$file")" != 0 ]; then
+	#include this block if you want to have 5% recovery data
+	if [ ! -e "$file-5p.par2" ] && [ "$ending" != "par2" ] && [ "$ending" != "sig" ] && [ "$(stat --format=%s "$file")" != 0 ]; then
 		echo "$numleft original files left"
-		par2 c -q -n1 -r8 "$file"
+		par2 c -q -n1 -r5 "$file"
 		rm "$file".par2
-		mv "$file".vol*par2 "$file"-8p.par2
+		mv "$file".vol*par2 "$file"-5p.par2
 	fi
 	
 	#include this block if you want to check for normal AND cryptographic integrity
