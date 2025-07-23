@@ -10,9 +10,10 @@
 	gpgsign = true
 [safe]
 	directory = C:/Users/Saori
+	directory = C:/MSVCDev
+	directory = C:/projects
 [core]
 	autocrlf = false
-	editor = C:/Users/Saori/soft/npp/notepad++.exe
 	compression = 0
 	ignorecase = false
 	quotepath = false
