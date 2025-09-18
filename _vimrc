@@ -18,6 +18,7 @@ set showmatch
 set noswapfile
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,latin1
+set termencoding=utf-8
 set shiftwidth=4
 set tabstop=4
 set autoread
