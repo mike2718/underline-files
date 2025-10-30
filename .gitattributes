@@ -3,6 +3,8 @@
 # ===============================
 * text=auto
 
+AppData/Local/transmission/*.json text eol=lf
+
 # ===============================
 # Bash / Shell 脚本类文件（强制 LF）
 # ===============================
