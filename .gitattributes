@@ -1,1 +1,42 @@
-#* text eol=lf
+# ===============================
+# 全局默认行为
+# ===============================
+* text=auto
+
+# ===============================
+# Bash / Shell 脚本类文件（强制 LF）
+# ===============================
+.bash_profile text eol=lf
+.bashrc text eol=lf
+.latexmkrc text eol=lf
+_curlrc text eol=crlf
+_gvimrc text eol=crlf
+_vimrc text eol=crlf
+bin/*.sh text eol=lf
+
+# ===============================
+# 配置文件类（通常 LF）
+# ===============================
+.gitconfig text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.gnupg/gpg-agent.conf text eol=lf
+.gnupg/gpg.conf text eol=lf
+SciTEUser.properties text eol=crlf
+rar.ini text eol=crlf
+
+# ===============================
+# 应用程序配置（按平台）
+# ===============================
+# Windows 应用程序配置文件可使用 CRLF
+AppData/Local/Syncthing/config.xml text eol=crlf
+AppData/Local/transmission/.gitattributes text eol=crlf
+AppData/Local/transmission/settings.json text eol=crlf
+AppData/Roaming/Code/User/settings.json text eol=crlf
+AppData/Roaming/JPEGView/JPEGView.ini text eol=crlf
+AppData/Roaming/aMule/amule.conf text eol=crlf
+
+# ===============================
+# Markdown 文档（LF 通用）
+# ===============================
+README.md text eol=lf
