@@ -13,7 +13,7 @@
 	directory = C:/MSVCDev
 	directory = C:/projects
 [core]
-	autocrlf = false
+	autocrlf = true
 	compression = 0
 	ignorecase = false
 	quotepath = false
