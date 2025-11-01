@@ -21,7 +21,6 @@
 	editor = C:/cmdtool64/Sc1.exe
 	excludesfile = C:/Users/Saori/.gitignore
 	attributesfile = C:/Users/Saori/.gitattributes
-	sshCommand = ssh -i ~/.ssh/id_mike -F /dev/null
 [init]
 	defaultBranch = main
 [merge]
