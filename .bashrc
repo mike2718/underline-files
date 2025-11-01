@@ -90,8 +90,6 @@ alias gpgd='gpg --decrypt'
 
 # gnupg tty
 export GPG_TTY="$(tty)"
-eval "$(ssh-agent -s)" >/dev/null
-ssh-add ~/.ssh/id_mike >/dev/null 2>&1
 #export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 #gpgconf --launch gpg-agent
 
