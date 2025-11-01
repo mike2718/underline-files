@@ -1,7 +1,7 @@
 [user]
 	email = mike2718@gmail.com
 	name = Mike
-	signingkey = 17C22010D29A50BC
+	signingkey = 19F253008884B5E7
 [tar "tar.xz"]
 	command = xz -c
 [tar "tar.zst"]
@@ -38,3 +38,5 @@
 	lowSpeedTime = 999999
 [credential]
 	helper = wincred
+[tag]
+	gpgSign = true
