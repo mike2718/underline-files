@@ -90,7 +90,7 @@ alias gpgd='gpg --decrypt'
 
 # gnupg tty
 export GPG_TTY="$(tty)"
-export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+#export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 #gpgconf --launch gpg-agent
 
 # curl的代理只用这些环境变量
