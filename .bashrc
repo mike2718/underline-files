@@ -87,8 +87,11 @@ alias gpglk='gpg --list-keys --keyid-format=long'
 alias gpglsk='gpg --list-secret-keys --keyid-format=long'
 alias gpge='gpg --encrypt --recipient 82B1FC19E5C28E3D47A637DC1C12D567826B66F1'
 alias gpgd='gpg --decrypt'
+
 # gnupg tty
-export GPG_TTY=$(tty)
+export GPG_TTY="$(tty)"
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
 
 # curl的代理只用这些环境变量
 #export http_proxy="http://127.0.0.1:7890"
