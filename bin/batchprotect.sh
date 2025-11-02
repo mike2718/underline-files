@@ -16,7 +16,7 @@ for file in $list ; do
 	
 	#include this block if you want to check for normal AND cryptographic integrity
 	if [ ! -e "$file.sig" ] && [ "$ending" != "par2" ] && [ "$ending" != "sig" ]; then
-		gpg --default-key 1C12D567826B66F1 --detach-sign --yes "$file"
+		gpg --default-key 19F253008884B5E7 --detach-sign --yes "$file"
 	fi
 	
 	numleft=$((numleft-1))
