@@ -13,14 +13,15 @@
 	directory = C:/MSVCDev
 	directory = C:/projects
 [core]
-	autocrlf = true
 	compression = 0
-	ignorecase = false
 	quotepath = false
-	safecrlf = true
+	autocrlf = false
+	eol = lf
 	editor = C:/cmdtool64/Sc1.exe
 	excludesfile = C:/Users/Saori/.gitignore
 	attributesfile = C:/Users/Saori/.gitattributes
+	fscache = true
+	preloadindex = true
 [init]
 	defaultBranch = main
 [merge]
@@ -31,12 +32,15 @@
 	autoSetupRemote = true
 	default = simple
 [http]
-	postBuffer = 524288000
-	maxRequests = 2
 	retry = 3
-	lowSpeedLimit = 0
-	lowSpeedTime = 999999
+	maxRequests = 4
 [credential]
-	helper = wincred
+	helper = manager-core
 [tag]
 	gpgSign = true
+[color]
+	ui = auto
+[diff]
+	algorithm = histogram
+[log]
+	date = iso
