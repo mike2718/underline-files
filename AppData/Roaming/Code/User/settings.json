@@ -154,5 +154,6 @@
 // 生成ファイルを "out" ディレクトリに吐き出す
 "latex-workshop.latex.outDir": "out",
 "git.openRepositoryInParentFolders": "never",
+"workbench.startupEditor": "none",
 
 }
