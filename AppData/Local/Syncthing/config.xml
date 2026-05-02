@@ -142,13 +142,13 @@
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="HDLJWBK-PAABIJ4-CXP56PQ-OXIYP4E-XGQG5MP-HPMDOYR-HLDOKWJ-K7NTTA5" introducedBy="">
-            <encryptionPassword></encryptionPassword>
-        </device>
         <device id="U4EWV6M-ZNWK2CW-KIVZGOJ-RRH6WH7-JZ4HLAR-7PTEBVO-32CYZFH-OV3TDAS" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="U74MWYL-AXTVZLW-Z52XKFR-7AA56EB-G3IABLE-FGSL3TW-XFDICT6-NW3FEAR" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="26ZFLC3-AFSQUBY-L2B4TYQ-NLKOB4N-7O3PAXZ-T7KWNPL-D4J4RQY-WEU3KQ7" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">5</minDiskFree>
@@ -191,13 +191,13 @@
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="HDLJWBK-PAABIJ4-CXP56PQ-OXIYP4E-XGQG5MP-HPMDOYR-HLDOKWJ-K7NTTA5" introducedBy="">
-            <encryptionPassword></encryptionPassword>
-        </device>
         <device id="U4EWV6M-ZNWK2CW-KIVZGOJ-RRH6WH7-JZ4HLAR-7PTEBVO-32CYZFH-OV3TDAS" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="U74MWYL-AXTVZLW-Z52XKFR-7AA56EB-G3IABLE-FGSL3TW-XFDICT6-NW3FEAR" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="26ZFLC3-AFSQUBY-L2B4TYQ-NLKOB4N-7O3PAXZ-T7KWNPL-D4J4RQY-WEU3KQ7" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">5</minDiskFree>
@@ -240,9 +240,6 @@
     <folder id="nukax-rsedm" label="sync" path="D:\sync" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
-            <encryptionPassword></encryptionPassword>
-        </device>
-        <device id="HDLJWBK-PAABIJ4-CXP56PQ-OXIYP4E-XGQG5MP-HPMDOYR-HLDOKWJ-K7NTTA5" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="U4EWV6M-ZNWK2CW-KIVZGOJ-RRH6WH7-JZ4HLAR-7PTEBVO-32CYZFH-OV3TDAS" introducedBy="">
@@ -289,9 +286,6 @@
     <folder id="rfdhe-tfhhz" label="Source Code" path="D:\Source-Code" type="sendonly" rescanIntervalS="36000" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
-            <encryptionPassword></encryptionPassword>
-        </device>
-        <device id="HDLJWBK-PAABIJ4-CXP56PQ-OXIYP4E-XGQG5MP-HPMDOYR-HLDOKWJ-K7NTTA5" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="U4EWV6M-ZNWK2CW-KIVZGOJ-RRH6WH7-JZ4HLAR-7PTEBVO-32CYZFH-OV3TDAS" introducedBy="">
@@ -386,13 +380,13 @@
         <device id="FCA2BOH-6ZAVUWU-NNMBOO4-OFLYTT4-SF75BMJ-SYUGJSY-GZHKPIG-K5ZG4AE" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="HDLJWBK-PAABIJ4-CXP56PQ-OXIYP4E-XGQG5MP-HPMDOYR-HLDOKWJ-K7NTTA5" introducedBy="">
-            <encryptionPassword></encryptionPassword>
-        </device>
         <device id="U4EWV6M-ZNWK2CW-KIVZGOJ-RRH6WH7-JZ4HLAR-7PTEBVO-32CYZFH-OV3TDAS" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="U74MWYL-AXTVZLW-Z52XKFR-7AA56EB-G3IABLE-FGSL3TW-XFDICT6-NW3FEAR" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="26ZFLC3-AFSQUBY-L2B4TYQ-NLKOB4N-7O3PAXZ-T7KWNPL-D4J4RQY-WEU3KQ7" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">5</minDiskFree>
@@ -443,17 +437,6 @@
         <remoteGUIPort>0</remoteGUIPort>
         <numConnections>4</numConnections>
     </device>
-    <device id="HDLJWBK-PAABIJ4-CXP56PQ-OXIYP4E-XGQG5MP-HPMDOYR-HLDOKWJ-K7NTTA5" name="raspberrypi" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
-        <address>dynamic</address>
-        <paused>false</paused>
-        <autoAcceptFolders>false</autoAcceptFolders>
-        <maxSendKbps>0</maxSendKbps>
-        <maxRecvKbps>0</maxRecvKbps>
-        <maxRequestKiB>0</maxRequestKiB>
-        <untrusted>false</untrusted>
-        <remoteGUIPort>0</remoteGUIPort>
-        <numConnections>4</numConnections>
-    </device>
     <device id="U4EWV6M-ZNWK2CW-KIVZGOJ-RRH6WH7-JZ4HLAR-7PTEBVO-32CYZFH-OV3TDAS" name="DS1821Plus" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
@@ -466,6 +449,17 @@
         <numConnections>4</numConnections>
     </device>
     <device id="U74MWYL-AXTVZLW-Z52XKFR-7AA56EB-G3IABLE-FGSL3TW-XFDICT6-NW3FEAR" name="My ASUS PC" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+        <address>dynamic</address>
+        <paused>false</paused>
+        <autoAcceptFolders>false</autoAcceptFolders>
+        <maxSendKbps>0</maxSendKbps>
+        <maxRecvKbps>0</maxRecvKbps>
+        <maxRequestKiB>0</maxRequestKiB>
+        <untrusted>false</untrusted>
+        <remoteGUIPort>0</remoteGUIPort>
+        <numConnections>4</numConnections>
+    </device>
+    <device id="26ZFLC3-AFSQUBY-L2B4TYQ-NLKOB4N-7O3PAXZ-T7KWNPL-D4J4RQY-WEU3KQ7" name="pi5" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
