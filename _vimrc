@@ -1,9 +1,25 @@
+set nocompatible              " 不兼容 Vi 模式
+filetype plugin on     " 开启文件类型检测、插件
+syntax on                     " 语法高亮
+
+call plug#begin('~/vimfiles/plugged')
+Plug 'vimwiki/vimwiki'
+call plug#end()
+
+let g:vimwiki_menu = ''        " 禁用 GUI 菜单，避免 E329
+let g:vimwiki_list = [
+  \ {
+  \   'path':      '~/dev/qsl-cards/',
+  \   'index':     'index2',
+  \   'ext':       '.wiki',
+  \   'path_html': '~/dev/qsl-cards/',
+  \ },
+\ ]
+
 " ==========================================
 " 基础通用设置
 " ==========================================
-set nocompatible              " 不兼容 Vi 模式
-filetype plugin indent on     " 开启文件类型检测、插件和缩进
-syntax on                     " 语法高亮
+
 set confirm                   " 未保存时退出弹出确认
 set autoread                  " 文件在外部被修改时自动载入
 
