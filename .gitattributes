@@ -15,8 +15,8 @@ AppData/Roaming/aMule/addresses.dat text eol=crlf
 .bashrc text eol=lf
 .latexmkrc text eol=lf
 _curlrc text eol=crlf
-_gvimrc text eol=crlf
-_vimrc text eol=crlf
+_gvimrc text eol=lf
+_vimrc text eol=lf
 bin/*.sh text eol=lf
 
 # ===============================

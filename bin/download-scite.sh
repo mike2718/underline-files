@@ -23,7 +23,6 @@ fi
 
 echo "Found latest versions:"
 echo "Sc: $SC_URL"
-echo "Sc32: $SC32_URL"
 
 # 下载函数
 download_file() {
@@ -42,10 +41,8 @@ download_file() {
 
 # 下载两个文件
 download_file "$SC_URL"
-download_file "$SC32_URL"
 
-mv Sc32_*.exe /c/cmdtool32/Sc1.exe
-mv Sc*.exe /c/cmdtool64/Sc1.exe
+cp -f Sc*.exe /c/cmdtool64/Sc1.exe
 # 清理临时文件
 rm "$TMP_FILE"
 
