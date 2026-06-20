@@ -1,0 +1,3 @@
+--cookies-from-browser firefox
+-f bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]
+--merge-output-format mp4

@@ -6,6 +6,7 @@
 AppData/Local/transmission/*.json text eol=lf
 AppData/Roaming/aMule/addresses.dat text eol=crlf
 .wslconfig text eol=crlf
+*.txt text eol=crlf
 
 
 # ===============================
