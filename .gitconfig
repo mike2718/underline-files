@@ -34,6 +34,7 @@
 [http]
 	retry = 3
 	maxRequests = 4
+	postBuffer = 524288000
 [credential]
 	helper = manager-core
 [tag]
