@@ -18,8 +18,6 @@
 	autocrlf = false
 	eol = lf
 	editor = C:/cmdtool64/Sc1.exe
-	excludesfile = C:/Users/Saori/.gitignore
-	attributesfile = C:/Users/Saori/.gitattributes
 	fscache = true
 	preloadindex = true
 [init]
@@ -35,6 +33,7 @@
 	retry = 3
 	maxRequests = 4
 	postBuffer = 524288000
+	proxy = socks5://192.168.34.44:1080
 [credential]
 	helper = manager-core
 [tag]
@@ -45,3 +44,10 @@
 	algorithm = histogram
 [log]
 	date = iso
+[https]
+	proxy = socks5://192.168.34.44:1080
+[alias]
+	acp = "!f() { git add -A && git commit -S -m \"$1\" && git push; }; f"
+	cleanpull = !git reset --hard && git clean -fdx && git pull
+[http "https://github.com"]
+	proxy = socks5h://192.168.34.44:1080
